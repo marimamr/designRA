@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A482DFD0E7545046E976BC7F /* Pods_DesignRA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D1211594FD35047AC774B /* Pods_DesignRA.framework */; };
+		EF81BC082BE8229F007EDDE6 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF81BC072BE8229F007EDDE6 /* Colors.xcassets */; };
+		EF81BC0C2BE82A30007EDDE6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF81BC0B2BE82A30007EDDE6 /* UIView+Extension.swift */; };
 		EFC99F732BDEE64E0091DB82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC99F722BDEE64E0091DB82 /* AppDelegate.swift */; };
-		EFC99F752BDEE64E0091DB82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC99F742BDEE64E0091DB82 /* SceneDelegate.swift */; };
-		EFC99F772BDEE64E0091DB82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC99F762BDEE64E0091DB82 /* ViewController.swift */; };
-		EFC99F7A2BDEE64E0091DB82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC99F782BDEE64E0091DB82 /* Main.storyboard */; };
 		EFC99F7C2BDEE6510091DB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC99F7B2BDEE6510091DB82 /* Assets.xcassets */; };
 		EFC99F7F2BDEE6510091DB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC99F7D2BDEE6510091DB82 /* LaunchScreen.storyboard */; };
+		EFC99F8A2BDEECCB0091DB82 /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC99F882BDEECCB0091DB82 /* IntroVC.swift */; };
+		EFC99F8B2BDEECCB0091DB82 /* IntroVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC99F892BDEECCB0091DB82 /* IntroVC.xib */; };
+		EFC99F8F2BDEED670091DB82 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC99F8D2BDEED670091DB82 /* LoginVC.swift */; };
+		EFC99F902BDEED670091DB82 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC99F8E2BDEED670091DB82 /* LoginVC.xib */; };
+		EFC99F942BDEEDA30091DB82 /* PricesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC99F922BDEEDA30091DB82 /* PricesVC.swift */; };
+		EFC99F952BDEEDA30091DB82 /* PricesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC99F932BDEEDA30091DB82 /* PricesVC.xib */; };
+		EFC99F992BDEEDCE0091DB82 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC99F972BDEEDCE0091DB82 /* HomeVC.swift */; };
+		EFC99F9A2BDEEDCE0091DB82 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC99F982BDEEDCE0091DB82 /* HomeVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		071D1211594FD35047AC774B /* Pods_DesignRA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignRA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4E7A34857DC66D91E81BD9 /* Pods-DesignRA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignRA.debug.xcconfig"; path = "Target Support Files/Pods-DesignRA/Pods-DesignRA.debug.xcconfig"; sourceTree = "<group>"; };
+		D017B1A0BDE050821EAEBCDE /* Pods-DesignRA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignRA.release.xcconfig"; path = "Target Support Files/Pods-DesignRA/Pods-DesignRA.release.xcconfig"; sourceTree = "<group>"; };
+		EF81BC072BE8229F007EDDE6 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		EF81BC0B2BE82A30007EDDE6 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		EFC99F6F2BDEE64E0091DB82 /* DesignRA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignRA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC99F722BDEE64E0091DB82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFC99F742BDEE64E0091DB82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFC99F762BDEE64E0091DB82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EFC99F792BDEE64E0091DB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFC99F7B2BDEE6510091DB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFC99F7E2BDEE6510091DB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFC99F802BDEE6510091DB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC99F882BDEECCB0091DB82 /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		EFC99F892BDEECCB0091DB82 /* IntroVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroVC.xib; sourceTree = "<group>"; };
+		EFC99F8D2BDEED670091DB82 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EFC99F8E2BDEED670091DB82 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		EFC99F922BDEEDA30091DB82 /* PricesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricesVC.swift; sourceTree = "<group>"; };
+		EFC99F932BDEEDA30091DB82 /* PricesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PricesVC.xib; sourceTree = "<group>"; };
+		EFC99F972BDEEDCE0091DB82 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		EFC99F982BDEEDCE0091DB82 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A482DFD0E7545046E976BC7F /* Pods_DesignRA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		415B8A2756BF9E4429028F73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B4E7A34857DC66D91E81BD9 /* Pods-DesignRA.debug.xcconfig */,
+				D017B1A0BDE050821EAEBCDE /* Pods-DesignRA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C598CD252F84E5779B529255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				071D1211594FD35047AC774B /* Pods_DesignRA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF81BC052BE82262007EDDE6 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				EF81BC0A2BE829E6007EDDE6 /* Extension */,
+				EF81BC062BE82279007EDDE6 /* Colors */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		EF81BC062BE82279007EDDE6 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				EF81BC072BE8229F007EDDE6 /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		EF81BC0A2BE829E6007EDDE6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF81BC0B2BE82A30007EDDE6 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		EFC99F662BDEE64E0091DB82 = {
 			isa = PBXGroup;
 			children = (
 				EFC99F712BDEE64E0091DB82 /* DesignRA */,
 				EFC99F702BDEE64E0091DB82 /* Products */,
+				415B8A2756BF9E4429028F73 /* Pods */,
+				C598CD252F84E5779B529255 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +119,61 @@
 		EFC99F712BDEE64E0091DB82 /* DesignRA */ = {
 			isa = PBXGroup;
 			children = (
+				EF81BC052BE82262007EDDE6 /* Utilites */,
+				EFC99F862BDEEC320091DB82 /* Scenes */,
 				EFC99F722BDEE64E0091DB82 /* AppDelegate.swift */,
-				EFC99F742BDEE64E0091DB82 /* SceneDelegate.swift */,
-				EFC99F762BDEE64E0091DB82 /* ViewController.swift */,
-				EFC99F782BDEE64E0091DB82 /* Main.storyboard */,
 				EFC99F7B2BDEE6510091DB82 /* Assets.xcassets */,
 				EFC99F7D2BDEE6510091DB82 /* LaunchScreen.storyboard */,
 				EFC99F802BDEE6510091DB82 /* Info.plist */,
 			);
 			path = DesignRA;
+			sourceTree = "<group>";
+		};
+		EFC99F862BDEEC320091DB82 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EFC99F962BDEEDB30091DB82 /* Home */,
+				EFC99F912BDEED710091DB82 /* Prices */,
+				EFC99F8C2BDEED410091DB82 /* Login */,
+				EFC99F872BDEEC6B0091DB82 /* Intro */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EFC99F872BDEEC6B0091DB82 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				EFC99F882BDEECCB0091DB82 /* IntroVC.swift */,
+				EFC99F892BDEECCB0091DB82 /* IntroVC.xib */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		EFC99F8C2BDEED410091DB82 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EFC99F8D2BDEED670091DB82 /* LoginVC.swift */,
+				EFC99F8E2BDEED670091DB82 /* LoginVC.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EFC99F912BDEED710091DB82 /* Prices */ = {
+			isa = PBXGroup;
+			children = (
+				EFC99F922BDEEDA30091DB82 /* PricesVC.swift */,
+				EFC99F932BDEEDA30091DB82 /* PricesVC.xib */,
+			);
+			path = Prices;
+			sourceTree = "<group>";
+		};
+		EFC99F962BDEEDB30091DB82 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EFC99F972BDEEDCE0091DB82 /* HomeVC.swift */,
+				EFC99F982BDEEDCE0091DB82 /* HomeVC.xib */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFC99F832BDEE6510091DB82 /* Build configuration list for PBXNativeTarget "DesignRA" */;
 			buildPhases = (
+				D21AA8E095FB3EC3F740DF6B /* [CP] Check Pods Manifest.lock */,
 				EFC99F6B2BDEE64E0091DB82 /* Sources */,
 				EFC99F6C2BDEE64E0091DB82 /* Frameworks */,
 				EFC99F6D2BDEE64E0091DB82 /* Resources */,
+				EFBB76EB2BDEF1DF003A0775 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -125,36 +236,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC99F952BDEEDA30091DB82 /* PricesVC.xib in Resources */,
+				EFC99F9A2BDEEDCE0091DB82 /* HomeVC.xib in Resources */,
 				EFC99F7F2BDEE6510091DB82 /* LaunchScreen.storyboard in Resources */,
 				EFC99F7C2BDEE6510091DB82 /* Assets.xcassets in Resources */,
-				EFC99F7A2BDEE64E0091DB82 /* Main.storyboard in Resources */,
+				EFC99F902BDEED670091DB82 /* LoginVC.xib in Resources */,
+				EFC99F8B2BDEECCB0091DB82 /* IntroVC.xib in Resources */,
+				EF81BC082BE8229F007EDDE6 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D21AA8E095FB3EC3F740DF6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesignRA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFBB76EB2BDEF1DF003A0775 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#\"${PODS_ROOT}/SwiftLint/swiftlint\"\n#/Users/amrmariam/Github/designRA/DesignRA/.swiftlint.yml\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EFC99F6B2BDEE64E0091DB82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC99F772BDEE64E0091DB82 /* ViewController.swift in Sources */,
+				EF81BC0C2BE82A30007EDDE6 /* UIView+Extension.swift in Sources */,
+				EFC99F942BDEEDA30091DB82 /* PricesVC.swift in Sources */,
+				EFC99F992BDEEDCE0091DB82 /* HomeVC.swift in Sources */,
 				EFC99F732BDEE64E0091DB82 /* AppDelegate.swift in Sources */,
-				EFC99F752BDEE64E0091DB82 /* SceneDelegate.swift in Sources */,
+				EFC99F8A2BDEECCB0091DB82 /* IntroVC.swift in Sources */,
+				EFC99F8F2BDEED670091DB82 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EFC99F782BDEE64E0091DB82 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFC99F792BDEE64E0091DB82 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EFC99F7D2BDEE6510091DB82 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -203,7 +356,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +419,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +440,7 @@
 		};
 		EFC99F842BDEE6510091DB82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4E7A34857DC66D91E81BD9 /* Pods-DesignRA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,7 +450,6 @@
 				INFOPLIST_FILE = DesignRA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,6 +467,7 @@
 		};
 		EFC99F852BDEE6510091DB82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D017B1A0BDE050821EAEBCDE /* Pods-DesignRA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,7 +477,6 @@
 				INFOPLIST_FILE = DesignRA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
